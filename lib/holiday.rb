@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
       newKey.each {|item|
         item.capitalize!
       }
-      puts newKey.join(" ") + ": " + value.join(", ")
+      puts "  " + newKey.join(" ") + ": " + value.join(", ")
     }
   }
 
